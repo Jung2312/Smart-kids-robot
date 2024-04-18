@@ -345,3 +345,8 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,python,linux
+
+# js 파일
+./Web/Back/swagger.js
+./Web/Back/server.js
+./Web/Back/DB/
