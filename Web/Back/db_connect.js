@@ -1,13 +1,12 @@
 const express = require("express");
 const oracledb = require("oracledb");
-const dbConfig = require("./DB/dbconfig");
+const dbConfig = require("./DB/db_config");
 
 const router = express.Router();
 async function selectDatabase(query) {
   try {
     console.log("db 연결");
     let connection = await oracledb.getConnection(dbConfig);
-
     let binds = {};
     let options = {
       outFormat: oracledb.OUT_FORMAT_OBJECT,
