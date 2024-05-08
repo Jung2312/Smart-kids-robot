@@ -1,0 +1,112 @@
+**English 테이블 alphabet_img, eword_img 두개 크기를 80으로**
+**english 테이블 알파벳 크기 10으로 고치기**
+**Eword_id 말고는 모두 널이아님 체크 해제**
+
+------------------알파벳 데이터(영어교육)-----------------------
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (1, 'A', './skids/image/alphabet_1.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (2, 'B', './skids/image/alphabet_2.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (3, 'C', './skids/image/alphabet_3.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (4, 'D', './skids/image/alphabet_4.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (5, 'E', './skids/image/alphabet_5.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (6, 'F', './skids/image/alphabet_6.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (7, 'G', './skids/image/alphabet_7.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (8, 'H', './skids/image/alphabet_8.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (9, 'I', './skids/image/alphabet_9.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (10, 'J', './skids/image/alphabet_10.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (11, 'K', './skids/image/alphabet_11.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (12, 'L', './skids/image/alphabet_12.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (13, 'M', './skids/image/alphabet_13.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (14, 'N', './skids/image/alphabet_14.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (15, 'O', './skids/image/alphabet_15.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (16, 'P', './skids/image/alphabet_16.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (17, 'Q', './skids/image/alphabet_17.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (18, 'R', './skids/image/alphabet_18.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (19, 'S', './skids/image/alphabet_19.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (20, 'T', './skids/image/alphabet_20.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (21, 'U', './skids/image/alphabet_21.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (22, 'V', './skids/image/alphabet_22.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (23, 'W', './skids/image/alphabet_23.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (24, 'X', './skids/image/alphabet_24.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (25, 'Y', './skids/image/alphabet_25.png', NULL);
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (26, 'Z', './skids/image/alphabet_26.png', NULL);
+------------------영어단어 이미지 데이터(영어교육)-----------------------
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (27, NULL, NULL, './skids/image/eword_1.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (28, NULL, NULL, './skids/image/eword_2.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (29, NULL, NULL, './skids/image/eword_3.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (30, NULL, NULL, './skids/image/eword_4.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (31, NULL, NULL, './skids/image/eword_5.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (32, NULL, NULL, './skids/image/eword_6.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (33, NULL, NULL, './skids/image/eword_7.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (34, NULL, NULL, './skids/image/eword_8.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (35, NULL, NULL, './skids/image/eword_9.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (36, NULL, NULL, './skids/image/eword_10.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (37, NULL, NULL, './skids/image/eword_11.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (38, NULL, NULL, './skids/image/eword_12.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (39, NULL, NULL, './skids/image/eword_13.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (40, NULL, NULL, './skids/image/eword_14.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (41, NULL, NULL, './skids/image/eword_15.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (42, NULL, NULL, './skids/image/eword_16.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (43, NULL, NULL, './skids/image/eword_17.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (44, NULL, NULL, './skids/image/eword_18.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (45, NULL, NULL, './skids/image/eword_19.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (46, NULL, NULL, './skids/image/eword_20.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (47, NULL, NULL, './skids/image/eword_21.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (48, NULL, NULL, './skids/image/eword_22.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (49, NULL, NULL, './skids/image/eword_23.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (50, NULL, NULL, './skids/image/eword_24.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (51, NULL, NULL, './skids/image/eword_25.png');
+INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
+VALUES (52, NULL, NULL, './skids/image/eword_26.png');
+
+
