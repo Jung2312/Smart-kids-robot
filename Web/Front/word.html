@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>낱말퀴즈</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body id="word-quiz">
+    <div class="title">
+      <h1>낱말퀴즈</h1>
+    </div>
+    <div class="container">
+      <div class="box">
+        <a href="quiz.html" class="btn">
+          <span class="btn-text">동물</span>
+          <img src="../assets/image/동물.png" alt="동물 이미지" />
+        </a>
+      </div>
+      <div class="box">
+        <a href="quiz.html" class="btn">
+          <span class="btn-text">과일</span>
+          <img src="../assets/image/과일.png" alt="과일 이미지" />
+        </a>
+      </div>
+      <div class="box">
+        <a href="quiz.html" class="btn">
+          <span class="btn-text">교통</span>
+          <img src="../assets//image/교통.png" alt="교통 이미지" />
+        </a>
+      </div>
+    </div>
+    <button class="back-button" onclick="goBack()">❮</button>
+
+    <script>
+      function goBack() {
+        window.location.href = "main.html";
+      }
+    </script>
+  </body>
+</html>
