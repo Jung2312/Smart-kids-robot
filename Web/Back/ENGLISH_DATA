@@ -1,106 +1,106 @@
 ------------------알파벳 데이터(영어교육)-----------------------
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (1, 'A', './assets/image/alphabet_1.png', NULL);
+VALUES (1, 'A', '../assets/image/alphabet_1.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (2, 'B', './assets/image/alphabet_2.png', NULL);
+VALUES (2, 'B', '../assets/image/alphabet_2.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (3, 'C', './assets/image/alphabet_3.png', NULL);
+VALUES (3, 'C', '../assets/image/alphabet_3.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (4, 'D', './assets/image/alphabet_4.png', NULL);
+VALUES (4, 'D', '../assets/image/alphabet_4.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (5, 'E', './assets/image/alphabet_5.png', NULL);
+VALUES (5, 'E', '../assets/image/alphabet_5.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (6, 'F', './assets/image/alphabet_6.png', NULL);
+VALUES (6, 'F', '../assets/image/alphabet_6.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (7, 'G', './assets/image/alphabet_7.png', NULL);
+VALUES (7, 'G', '../assets/image/alphabet_7.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (8, 'H', './assets/image/alphabet_8.png', NULL);
+VALUES (8, 'H', '../assets/image/alphabet_8.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (9, 'I', './assets/image/alphabet_9.png', NULL);
+VALUES (9, 'I', '../assets/image/alphabet_9.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (10, 'J', './assets/image/alphabet_10.png', NULL);
+VALUES (10, 'J', '../assets/image/alphabet_10.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (11, 'K', './assets/image/alphabet_11.png', NULL);
+VALUES (11, 'K', '../assets/image/alphabet_11.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (12, 'L', './assets/image/alphabet_12.png', NULL);
+VALUES (12, 'L', '../assets/image/alphabet_12.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (13, 'M', './assets/image/alphabet_13.png', NULL);
+VALUES (13, 'M', '../assets/image/alphabet_13.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (14, 'N', './assets/image/alphabet_14.png', NULL);
+VALUES (14, 'N', '../assets/image/alphabet_14.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (15, 'O', './assets/image/alphabet_15.png', NULL);
+VALUES (15, 'O', '../assets/image/alphabet_15.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (16, 'P', './assets/image/alphabet_16.png', NULL);
+VALUES (16, 'P', '../assets/image/alphabet_16.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (17, 'Q', './assets/image/alphabet_17.png', NULL);
+VALUES (17, 'Q', '../assets/image/alphabet_17.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (18, 'R', './assets/image/alphabet_18.png', NULL);
+VALUES (18, 'R', '../assets/image/alphabet_18.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (19, 'S', './assets/image/alphabet_19.png', NULL);
+VALUES (19, 'S', '../assets/image/alphabet_19.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (20, 'T', './assets/image/alphabet_20.png', NULL);
+VALUES (20, 'T', '../assets/image/alphabet_20.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (21, 'U', './assets/image/alphabet_21.png', NULL);
+VALUES (21, 'U', '../assets/image/alphabet_21.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (22, 'V', './assets/image/alphabet_22.png', NULL);
+VALUES (22, 'V', '../assets/image/alphabet_22.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (23, 'W', './assets/image/alphabet_23.png', NULL);
+VALUES (23, 'W', '../assets/image/alphabet_23.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (24, 'X', './assets/image/alphabet_24.png', NULL);
+VALUES (24, 'X', '../assets/image/alphabet_24.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (25, 'Y', './assets/image/alphabet_25.png', NULL);
+VALUES (25, 'Y', '../assets/image/alphabet_25.png', NULL);
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (26, 'Z', './assets/image/alphabet_26.png', NULL);
+VALUES (26, 'Z', '../assets/image/alphabet_26.png', NULL);
 
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (27, NULL, NULL, './assets/image/eword_1.png');
+VALUES (27, NULL, NULL, '../assets/image/eword_1.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (28, NULL, NULL, './assets/image/eword_2.png');
+VALUES (28, NULL, NULL, '../assets/image/eword_2.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (29, NULL, NULL, './assets/image/eword_3.png');
+VALUES (29, NULL, NULL, '../assets/image/eword_3.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (30, NULL, NULL, './assets/image/eword_4.png');
+VALUES (30, NULL, NULL, '../assets/image/eword_4.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (31, NULL, NULL, './assets/image/eword_5.png');
+VALUES (31, NULL, NULL, '../assets/image/eword_5.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (32, NULL, NULL, './assets/image/eword_6.png');
+VALUES (32, NULL, NULL, '../assets/image/eword_6.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (33, NULL, NULL, './assets/image/eword_7.png');
+VALUES (33, NULL, NULL, '../assets/image/eword_7.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (34, NULL, NULL, './assets/image/eword_8.png');
+VALUES (34, NULL, NULL, '../assets/image/eword_8.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (35, NULL, NULL, './assets/image/eword_9.png');
+VALUES (35, NULL, NULL, '../assets/image/eword_9.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (36, NULL, NULL, './assets/image/eword_10.png');
+VALUES (36, NULL, NULL, '../assets/image/eword_10.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (37, NULL, NULL, './assets/image/eword_11.png');
+VALUES (37, NULL, NULL, '../assets/image/eword_11.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (38, NULL, NULL, './assets/image/eword_12.png');
+VALUES (38, NULL, NULL, '../assets/image/eword_12.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (39, NULL, NULL, './assets/image/eword_13.png');
+VALUES (39, NULL, NULL, '../assets/image/eword_13.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (40, NULL, NULL, './assets/image/eword_14.png');
+VALUES (40, NULL, NULL, '../assets/image/eword_14.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (41, NULL, NULL, './assets/image/eword_15.png');
+VALUES (41, NULL, NULL, '../assets/image/eword_15.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (42, NULL, NULL, './assets/image/eword_16.png');
+VALUES (42, NULL, NULL, '../assets/image/eword_16.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (43, NULL, NULL, './assets/image/eword_17.png');
+VALUES (43, NULL, NULL, '../assets/image/eword_17.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (44, NULL, NULL, './assets/image/eword_18.png');
+VALUES (44, NULL, NULL, '../assets/image/eword_18.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (45, NULL, NULL, './assets/image/eword_19.png');
+VALUES (45, NULL, NULL, '../assets/image/eword_19.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (46, NULL, NULL, './assets/image/eword_20.png');
+VALUES (46, NULL, NULL, '../assets/image/eword_20.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (47, NULL, NULL, './assets/image/eword_21.png');
+VALUES (47, NULL, NULL, '../assets/image/eword_21.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (48, NULL, NULL, './assets/image/eword_22.png');
+VALUES (48, NULL, NULL, '../assets/image/eword_22.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (49, NULL, NULL, './assets/image/eword_23.png');
+VALUES (49, NULL, NULL, '../assets/image/eword_23.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (50, NULL, NULL, './assets/image/eword_24.png');
+VALUES (50, NULL, NULL, '../assets/image/eword_24.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (51, NULL, NULL, './assets/image/eword_25.png');
+VALUES (51, NULL, NULL, '../assets/image/eword_25.png');
 INSERT INTO English (eword_id, alphabet, alphabet_img, eword_img)
-VALUES (52, NULL, NULL, './assets/image/eword_26.png');
+VALUES (52, NULL, NULL, '../assets/image/eword_26.png');

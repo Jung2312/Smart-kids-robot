@@ -1,85 +1,85 @@
 **테이블 KOREAN ,NATION, WORDQUIZ 이미지 크기 80으로 고치기**
-
 ----------------------------------자음 데이터--------------------------------
 INSERT INTO SKIDS.KOREAN (KWORD_ID, VOWEL, CONSONANT, DOUBLE_CONSONANT, KWORD_IMG)
-VALUES (1, NULL, 'ㄱ', NULL, './assets/image/consonant_1.png');
+VALUES (1, NULL, 'ㄱ', NULL, '../assets/image/consonant_1.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (2, NULL, 'ㄴ', NULL, './assets/image/consonant_2.png');
+VALUES (2, NULL, 'ㄴ', NULL, '../assets/image/consonant_2.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (3, NULL, 'ㄷ', NULL, './assets/image/consonant_3.png');
+VALUES (3, NULL, 'ㄷ', NULL, '../assets/image/consonant_3.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (4, NULL, 'ㄹ', NULL, './assets/image/consonant_4.png');
+VALUES (4, NULL, 'ㄹ', NULL, '../assets/image/consonant_4.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (5, NULL, 'ㅁ', NULL, './assets/image/consonant_5.png');
+VALUES (5, NULL, 'ㅁ', NULL, '../assets/image/consonant_5.png');
 INSERT INTO SKIDS.KOREAN (KWORD_ID, VOWEL, CONSONANT, DOUBLE_CONSONANT, KWORD_IMG)
-VALUES (6, NULL, 'ㅂ', NULL, './assets/image/consonant_6.png');
+VALUES (6, NULL, 'ㅂ', NULL, '../assets/image/consonant_6.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (7, NULL, 'ㅅ', NULL, './assets/image/consonant_7.png');
+VALUES (7, NULL, 'ㅅ', NULL, '../assets/image/consonant_7.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (8, NULL, 'ㅇ', NULL, './assets/image/consonant_8.png');
+VALUES (8, NULL, 'ㅇ', NULL, '../assets/image/consonant_8.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (9, NULL, 'ㅈ', NULL, './assets/image/consonant_9.png');
+VALUES (9, NULL, 'ㅈ', NULL, '../assets/image/consonant_9.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (10, NULL, 'ㅊ', NULL, './assets/image/consonant_10.png');
+VALUES (10, NULL, 'ㅊ', NULL, '../assets/image/consonant_10.png');
 INSERT INTO SKIDS.KOREAN (KWORD_ID, VOWEL, CONSONANT, DOUBLE_CONSONANT, KWORD_IMG)
-VALUES (11, NULL, 'ㅋ', NULL, './assets/image/consonant_11.png');
+VALUES (11, NULL, 'ㅋ', NULL, '../assets/image/consonant_11.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (12, NULL, 'ㅌ', NULL, './assets/image/consonant_12.png');
+VALUES (12, NULL, 'ㅌ', NULL, '../assets/image/consonant_12.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (13, NULL, 'ㅍ', NULL, './assets/image/consonant_13.png');
+VALUES (13, NULL, 'ㅍ', NULL, '../assets/image/consonant_13.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (14, NULL, 'ㅎ', NULL, './assets/image/consonant_14.png');
+VALUES (14, NULL, 'ㅎ', NULL, '../assets/image/consonant_14.png');
 ----------------------모음 데이터----------------------------------------
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (15, 'ㅏ', NULL, NULL, './assets/image/vowel_1.png');
+VALUES (15, 'ㅏ', NULL, NULL, '../assets/image/vowel_1.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (16, 'ㅑ', NULL, NULL, './assets/image/vowel_2.png');
+VALUES (16, 'ㅑ', NULL, NULL, '../assets/image/vowel_2.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (17, 'ㅓ', NULL, NULL, './assets/image/vowel_3.png');
+VALUES (17, 'ㅓ', NULL, NULL, '../assets/image/vowel_3.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (18, 'ㅕ', NULL, NULL, './assets/image/vowel_4.png');
+VALUES (18, 'ㅕ', NULL, NULL, '../assets/image/vowel_4.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (19, 'ㅗ', NULL, NULL, './assets/image/vowel_5.png');
+VALUES (19, 'ㅗ', NULL, NULL, '../assets/image/vowel_5.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (20, 'ㅛ', NULL, NULL, './assets/image/vowel_6.png');
+VALUES(20, 'ㅛ', NULL, NULL, '../assets/image/vowel_6.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (21, 'ㅜ', NULL, NULL, './assets/image/vowel_7.png');
+VALUES(21, 'ㅜ', NULL, NULL, '../assets/image/vowel_7.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (22, 'ㅠ', NULL, NULL, './assets/image/vowel_8.png');
+VALUES(22, 'ㅠ', NULL, NULL, '../assets/image/vowel_8.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (23, 'ㅡ', NULL, NULL, './assets/image/vowel_9.png');
+VALUES(23, 'ㅡ', NULL, NULL, '../assets/image/vowel_9.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (24, 'ㅣ', NULL, NULL, './assets/image/vowel_10.png');
+VALUES(24, 'ㅣ', NULL, NULL, '../assets/image/vowel_10.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (25, 'ㅐ', NULL, NULL, './assets/image/vowel_11.png');
+VALUES(25, 'ㅐ', NULL, NULL, '../assets/image/vowel_11.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (26, 'ㅔ', NULL, NULL, './assets/image/vowel_12.png');
+VALUES(26, 'ㅔ', NULL, NULL, '../assets/image/vowel_12.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (27, 'ㅒ', NULL, NULL, './assets/image/vowel_13.png');
+VALUES(27, 'ㅒ', NULL, NULL, '../assets/image/vowel_13.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (28, 'ㅖ', NULL, NULL, './assets/image/vowel_14.png');
+VALUES(28, 'ㅖ', NULL, NULL, '../assets/image/vowel_14.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (29, 'ㅘ', NULL, NULL, './assets/image/vowel_15.png');
+VALUES(29, 'ㅘ', NULL, NULL, '../assets/image/vowel_15.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (30, 'ㅚ', NULL, NULL, './assets/image/vowel_16.png');
+VALUES(30, 'ㅚ', NULL, NULL, '../assets/image/vowel_16.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (31, 'ㅝ', NULL, NULL, './assets/image/vowel_17.png');
+VALUES (31, 'ㅝ', NULL, NULL, '../assets/image/vowel_17.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (32, 'ㅟ', NULL, NULL, './assets/image/vowel_18.png');
+VALUES (32, 'ㅟ', NULL, NULL, '../assets/image/vowel_18.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (33, 'ㅢ', NULL, NULL, './assets/image/vowel_19.png');
+VALUES (33, 'ㅢ', NULL, NULL, '../assets/image/vowel_19.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (34, 'ㅙ', NULL, NULL, './assets/image/vowel_20.png');
+VALUES (34, 'ㅙ', NULL, NULL, '../assets/image/vowel_20.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (35, 'ㅞ', NULL, NULL, './assets/image/vowel_21.png');
+VALUES (35, 'ㅞ', NULL, NULL, '../assets/image/vowel_21.png');
 --------------------쌍자음 데이터----------------------
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (36, NULL, NULL, 'ㄲ', './assets/image/double_consonant_1.png');
+VALUES (36, NULL, NULL, 'ㄲ', '../assets/image/double_consonant_1.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (37, NULL, NULL, 'ㄸ', './assets/image/double_consonant_2.png');
+VALUES (37, NULL, NULL, 'ㄸ', '../assets/image/double_consonant_2.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (38, NULL, NULL, 'ㅃ', './assets/image/double_consonant_3.png');
+VALUES (38, NULL, NULL, 'ㅃ', '../assets/image/double_consonant_3.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (39, NULL, NULL, 'ㅆ', './assets/image/double_consonant_4.png');
+VALUES (39, NULL, NULL, 'ㅆ', '../assets/image/double_consonant_4.png');
 INSERT INTO Korean (kword_id, vowel, consonant, double_consonant, kword_img)
-VALUES (40, NULL, NULL, 'ㅉ', './assets/image/double_consonant_5.png');
+VALUES (40, NULL, NULL, 'ㅉ', '../assets/image/double_consonant_5.png');
+
