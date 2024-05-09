@@ -1,8 +1,12 @@
+let ip = "172.20.10.7";
+
 async function loadImages(category) {
   try {
     const response = await fetch(
-      `http://192.168.0.3:8080/db?education=korean&category=${category}`
+      `http://${ip}:8080/db?education=korean&category=${category}`
+       
     );
+    console.log(response);
     const data = await response.json();
 
     const contentDiv = document.querySelector(".content");
@@ -49,7 +53,7 @@ async function loadImages(category) {
       // 음성 버튼 생성
       const audioButton = document.createElement("button");
       audioButton.classList.add("audio-button");
-      audioButton.addEventListener("click", () => {});
+      // audioButton.addEventListener("click", () => {});
       const audioimage = document.createElement("img");
       audioimage.src =
         "https://img.icons8.com/fluency-systems-regular/36/high-volume.png";

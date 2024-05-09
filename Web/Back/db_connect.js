@@ -32,13 +32,15 @@ router.get("/db", async function (req, res) {
     const category = req.query.category; // 자음, 모음, 쌍자음, 단어, 알파벳, 동물, 과일, 교통
     console.log(education);
     let query = null;
+    let binds = {}; // binds 객체 초기화
 
     if (education === "wordQuiz") {
-      query = `SELECT * FROM ${education} where category = ${category}`;
+      query = `SELECT * FROM ${education} where category = :category`;
+      binds.category = category;
     } else {
       query = `SELECT * FROM ${education} where ${category} IS NOT NULL`;
     }
-    const result = await selectDatabase(query);
+    const result = await selectDatabase(query, binds);
 
     const resultWithUrls = await processImages(result);
 
