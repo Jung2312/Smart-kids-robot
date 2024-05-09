@@ -1,16 +1,13 @@
-let ip = "172.20.10.7";
-
 async function loadImages(category) {
   try {
     const response = await fetch(
-      `http://${ip}:8080/db?education=korean&category=${category}`
-       
+      `http://127.0.0.1:8080/db?education=korean&category=${category}`
     );
     console.log(response);
     const data = await response.json();
 
     const contentDiv = document.querySelector(".content");
-    const images = data.WORD_IMG;
+    const images = data.WORD;
     let currentIndex = 0;
 
     function showImage(index) {
@@ -68,4 +65,6 @@ async function loadImages(category) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", loadImages);
+document.addEventListener("DOMContentLoaded", () => {
+  loadImages("CONSONANT"); // 페이지 로드 시 이미지 불러오기 시작
+});
