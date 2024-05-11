@@ -40,6 +40,12 @@ router.get("/db", async function (req, res) {
     } else {
       query = `SELECT * FROM ${education} where ${category} IS NOT NULL`;
     }
+
+    if (education === "english" && category === "word") {
+      query = `SELECT * FROM ${education} where EWORD_IMG IS NOT NULL`;
+    } else {
+      query = `SELECT * FROM ${education} where ${category} IS NOT NULL`;
+    }
     const result = await selectDatabase(query, binds);
 
     const resultWithUrls = await processImages(result);
