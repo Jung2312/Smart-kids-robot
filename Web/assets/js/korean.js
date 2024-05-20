@@ -14,7 +14,7 @@ async function loadImages(category) {
       contentDiv.innerHTML = ""; // 이전 이미지 지움
 
       const imageContainer = document.createElement("div");
-      imageContainer.classList.add("image-container");
+      imageContainer.classList.add("image-container"); 
 
       // 이전 버튼 생성
       const prevButton = document.createElement("button");

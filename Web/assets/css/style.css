@@ -217,8 +217,54 @@ body {
 #word-quiz .title {
   background-color: #94d892;
 }
+
 #word-quiz .box .btn {
   background-color: #94d892;
+}
+
+#word-quiz .question {
+  text-align: center; /* 텍스트를 가운데 정렬합니다. */
+  font-size: 30px; /* 텍스트의 글자 크기를 20px로 설정합니다. */
+  font-weight: 600;
+}
+
+#word-quiz .content {
+  display: flex;
+  flex-direction: column; /* 수직 정렬 */
+  align-items: center; /* 가로축 중앙 정렬 */
+  height: 100vh; /* 뷰포트 높이의 100% */
+  justify-content: center; /* 세로축 중앙 정렬 */
+}
+
+#word-quiz .image-container {
+  margin-bottom: 10px; /* 이미지 아래에 여백 추가 */
+}
+
+#word-quiz .centered {
+  display: block;
+  margin: 0 auto; /* 이미지를 중앙에 위치 */
+  max-width: 90%; /* 이미지의 최대 너비를 80%로 설정 */
+  max-height: 90%; /* 이미지의 최대 높이를 80%로 설정 */
+}
+
+#word-quiz .buttons {
+  display: flex;
+  justify-content: center; /* 버튼들을 중앙에 정렬 */
+  gap: 10px; /* 버튼 사이에 간격 추가 */
+}
+
+#word-quiz .button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 200px;
+  background-color: #94d892;
+  border: none;
+}
+
+#word-quiz .button:hover {
+  background-color: #669965; /* 호버 시 배경색 변경 */
 }
 
 /* ----------국기퀴즈 페이지------------- */
@@ -226,8 +272,47 @@ body {
   background-color: #f4d76e;
 }
 
-.question {
+#country-quiz .question {
   text-align: center; /* 텍스트를 가운데 정렬합니다. */
   font-size: 30px; /* 텍스트의 글자 크기를 20px로 설정합니다. */
-  font-weight: 600;
+  font-weight: 700;
+}
+
+#country-quiz .content {
+  display: flex;
+  flex-direction: column; /* 수직 정렬 */
+  align-items: center; /* 가로축 중앙 정렬 */
+  height: 100vh; /* 뷰포트 높이의 100% */
+  justify-content: center; /* 세로축 중앙 정렬 */
+}
+
+#country-quiz .image-container {
+  margin-bottom: 10px; /* 이미지와 버튼 사이에 간격 추가 */
+}
+
+#country-quiz .centered {
+  display: block;
+  margin: 0 auto; /* 이미지를 중앙에 위치 */
+  max-width: 120%; /* 이미지의 최대 너비를 80%로 설정 */
+  max-height: 120%; /* 이미지의 최대 높이를 80%로 설정 */
+}
+
+#country-quiz .buttons {
+  display: flex;
+  justify-content: center; /* 버튼들을 중앙에 정렬 */
+  gap: 10px; /* 버튼 사이에 간격 추가 */
+}
+
+#country-quiz .button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 200px;
+  background-color: #f4d76e;
+  border: none;
+}
+
+#country-quiz .button:hover {
+  background-color: #A49049; /* 호버 시 배경색 변경 */
 }
