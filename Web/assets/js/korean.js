@@ -10,12 +10,6 @@ async function loadImages(category) {
     const images = data.WORD;
     let currentIndex = 0;
 
-    // 보이스 설정 (예시로 Google Chrome 브라우저의 한국어 여성 보이스를 사용)
-    const voices = window.speechSynthesis.getVoices();
-    const koreanVoice = voices.find(
-      (voice) => voice.lang === "ko-KR" && voice.name === "Google 한국의"
-    );
-
     function showImage(index) {
       contentDiv.innerHTML = ""; // 이전 이미지 지움
 
@@ -56,7 +50,6 @@ async function loadImages(category) {
       // 음성 버튼 생성
       const audioButton = document.createElement("button");
       audioButton.classList.add("audio-button");
-      // audioButton.addEventListener("click", () => {});
       const audioimage = document.createElement("img");
       audioimage.src =
         "https://img.icons8.com/fluency-systems-regular/36/high-volume.png";
@@ -71,7 +64,24 @@ async function loadImages(category) {
         images[index].DOUBLE_CONSONANT;
       const utterance = new SpeechSynthesisUtterance(koreanCharacter);
       utterance.lang = "ko-KR"; // 한국어로 설정
-      utterance.voice = koreanVoice; // 보이스 설정
+
+      // 보이스 설정 (예시로 Google Chrome 브라우저의 한국어 여성 보이스를 사용)
+      function setVoice() {
+        const voices = window.speechSynthesis.getVoices();
+        const koreanVoice = voices.find(
+          (voice) => voice.lang === "ko-KR" && voice.name === "Google 한국의"
+        );
+        if (koreanVoice) {
+          utterance.voice = koreanVoice; // 보이스 설정
+        }
+      }
+
+      if (window.speechSynthesis.getVoices().length === 0) {
+        window.speechSynthesis.onvoiceschanged = setVoice;
+      } else {
+        setVoice();
+      }
+
       audioButton.addEventListener("click", () => {
         window.speechSynthesis.speak(utterance);
       });
@@ -79,10 +89,17 @@ async function loadImages(category) {
 
     showImage(currentIndex);
   } catch (error) {
-    console.error("Error loading images:", error);
+    console.error("이미지 불러오기 오류:", error);
   }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   loadImages("CONSONANT"); // 페이지 로드 시 이미지 불러오기 시작
+
+  document.querySelectorAll(".category-box").forEach((box) => {
+    box.addEventListener("click", () => {
+      const category = box.getAttribute("onclick").match(/'(.*?)'/)[1];
+      loadImages(category);
+    });
+  });
 });

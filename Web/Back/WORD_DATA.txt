@@ -1,0 +1,65 @@
+---------------동물 카테고리--------------------
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (1, '코끼리', '동물', '../assets/image/animal_1.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (2, '토끼', '동물', '../assets/image/animal_2.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (3, '사자', '동물', '../assets/image/animal_3.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (4, '호랑이', '동물', '../assets/image/animal_4.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (5, '원숭이', '동물', '../assets/image/animal_5.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (6, '다람쥐', '동물', '../assets/image/animal_6.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (7, '강아지', '동물', '../assets/image/animal_7.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (8, '고양이', '동물', '../assets/image/animal_8.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (9, '기린', '동물', '../assets/image/animal_9.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (10, '돼지', '동물', '../assets/image/animal_10.png');
+---------------과일 카테고리--------------------
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (11, '바나나', '과일', '../assets/image/fruit_1.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (12, '사과', '과일', '../assets/image/fruit_2.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (13, '체리', '과일', '../assets/image/fruit_3.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (14, '파인애플', '과일', '../assets/image/fruit_4.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (15, '포도', '과일', '../assets/image/fruit_5.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (16, '딸기', '과일', '../assets/image/fruit_6.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (17, '수박', '과일', '../assets/image/fruit_7.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (18, '멜론', '과일', '../assets/image/fruit_8.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (19, '복숭아', '과일', '../assets/image/fruit_9.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (20, '망고', '과일', '../assets/image/fruit_10.png');
+---------------교통 카테고리--------------------
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (21, '버스', '교통', '../assets/image/traffic_1.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (22, '비행기', '교통', '../assets/image/traffic_2.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (23, '택시', '교통', '../assets/image/traffic_3.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (24, '자전거', '교통', '../assets/image/traffic_4.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (25, '구급차', '교통', '../assets/image/traffic_5.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (26, '배', '교통', '../assets/image/traffic_6.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (27, '경찰차', '교통', '../assets/image/traffic_7.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (28, '소방차', '교통', '../assets/image/traffic_8.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (29, '오토바이', '교통', '../assets/image/traffic_9.png');
+INSERT INTO Wordquiz (word_id, word, category, word_img)
+VALUES (30, '기차', '교통', '../assets/image/traffic_10.png');
+
+

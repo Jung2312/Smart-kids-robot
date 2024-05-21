@@ -1,0 +1,40 @@
+INSERT INTO Nation (nation, nation_img)
+VALUES ('영국', '../assets/image/nation_1.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('캐나다', '../assets/image/nation_2.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('미국', '../assets/image/nation_3.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('프랑스', '../assets/image/nation_4.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('독일', '../assets/image/nation_5.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('브라질', '../assets/image/nation_6.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('스페인', '../assets/image/nation_7.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('대한민국', '../assets/image/nation_8.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('일본', '../assets/image/nation_9.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('중국', '../assets/image/nation_10.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('호주', '../assets/image/nation_11.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('이집트', '../assets/image/nation_12.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('터키', '../assets/image/nation_13.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('러시아', '../assets/image/nation_14.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('필리핀', '../assets/image/nation_15.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('인도', '../assets/image/nation_16.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('이란', '../assets/image/nation_17.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('그리스', '../assets/image/nation_18.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('칠레', '../assets/image/nation_19.png');
+INSERT INTO Nation (nation, nation_img)
+VALUES ('가나', '../assets/image/nation_20.png');
