@@ -10,6 +10,13 @@ async function loadImages(category) {
     const images = data.WORD;
     let currentIndex = 0;
 
+    // 음성 합성을 위한 함수
+    function speakWord(word) {
+      const synth = window.speechSynthesis;
+      const utterance = new SpeechSynthesisUtterance(word);
+      synth.speak(utterance);
+    }
+
     function showImage(index, category) {
       contentDiv.innerHTML = ""; // 이전 이미지 지움
 
@@ -60,6 +67,15 @@ async function loadImages(category) {
       audioimage.classList.add("centered"); // 위치 정렬
       audioButton.appendChild(audioimage);
       contentDiv.appendChild(audioButton);
+
+      // showImage 함수 내에 음성 버튼 클릭 이벤트 핸들러 추가
+      audioButton.addEventListener("click", () => {
+        const currentWord =
+          category === "word"
+            ? images[currentIndex].WORD
+            : images[currentIndex].ALPHABET;
+        speakWord(currentWord);
+      });
     }
 
     showImage(currentIndex, category);

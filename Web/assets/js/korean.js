@@ -10,11 +10,17 @@ async function loadImages(category) {
     const images = data.WORD;
     let currentIndex = 0;
 
+    // 보이스 설정 (예시로 Google Chrome 브라우저의 한국어 여성 보이스를 사용)
+    const voices = window.speechSynthesis.getVoices();
+    const koreanVoice = voices.find(
+      (voice) => voice.lang === "ko-KR" && voice.name === "Google 한국의"
+    );
+
     function showImage(index) {
       contentDiv.innerHTML = ""; // 이전 이미지 지움
 
       const imageContainer = document.createElement("div");
-      imageContainer.classList.add("image-container"); 
+      imageContainer.classList.add("image-container");
 
       // 이전 버튼 생성
       const prevButton = document.createElement("button");
@@ -57,6 +63,18 @@ async function loadImages(category) {
       audioimage.classList.add("centered"); // 위치 정렬
       audioButton.appendChild(audioimage);
       contentDiv.appendChild(audioButton);
+
+      // 음성 출력
+      const koreanCharacter =
+        images[index].CONSONANT ||
+        images[index].VOWEL ||
+        images[index].DOUBLE_CONSONANT;
+      const utterance = new SpeechSynthesisUtterance(koreanCharacter);
+      utterance.lang = "ko-KR"; // 한국어로 설정
+      utterance.voice = koreanVoice; // 보이스 설정
+      audioButton.addEventListener("click", () => {
+        window.speechSynthesis.speak(utterance);
+      });
     }
 
     showImage(currentIndex);
