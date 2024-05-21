@@ -70,7 +70,7 @@ const loadQuiz = async () => {
             {
                 text: wrongWord.WORD,
                 onClick: () => {
-                    alert("틀렸습니다!");
+                    alert("다시 생각해보세요!");
                 }
             }
         ];
