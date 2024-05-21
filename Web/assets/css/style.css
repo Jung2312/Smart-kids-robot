@@ -243,8 +243,8 @@ body {
 #word-quiz .centered {
   display: block;
   margin: 0 auto; /* 이미지를 중앙에 위치 */
-  max-width: 90%; /* 이미지의 최대 너비를 80%로 설정 */
-  max-height: 90%; /* 이미지의 최대 높이를 80%로 설정 */
+  max-width: 100%; /* 이미지의 최대 너비를 80%로 설정 */
+  max-height: 100%; /* 이미지의 최대 높이를 80%로 설정 */
 }
 
 #word-quiz .buttons {
@@ -293,8 +293,8 @@ body {
 #country-quiz .centered {
   display: block;
   margin: 0 auto; /* 이미지를 중앙에 위치 */
-  max-width: 120%; /* 이미지의 최대 너비를 80%로 설정 */
-  max-height: 120%; /* 이미지의 최대 높이를 80%로 설정 */
+  max-width: 100%; /* 이미지의 최대 너비를 80%로 설정 */
+  max-height: 100%; /* 이미지의 최대 높이를 80%로 설정 */
 }
 
 #country-quiz .buttons {
