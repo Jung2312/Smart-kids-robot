@@ -15,6 +15,26 @@ const fetchRandomNation = async () => {
     }
 };
 
+// 음성 출력 함수
+const speakMessage = (message) => {
+    const utterance = new SpeechSynthesisUtterance(message);
+    utterance.lang = "ko-KR"; // 한국어로 설정
+
+    // 보이스 설정 (예시로 Google Chrome 브라우저의 한국어 여성 보이스를 사용)
+    const setVoice = () => {
+        const voices = window.speechSynthesis.getVoices();
+        const koreanVoice = voices.find(
+            (voice) => voice.lang === "ko-KR" && voice.name === "Google 한국의"
+        );
+        if (koreanVoice) {
+            utterance.voice = koreanVoice; // 보이스 설정
+        }
+    };
+
+    setVoice();
+    window.speechSynthesis.speak(utterance);
+};
+
 const getRandomInt = (max) => {
     return Math.floor(Math.random() * max);
 };
@@ -54,23 +74,24 @@ const loadImages = async () => {
         image.classList.add("centered");
         imageContainer.appendChild(image);
 
+        
         // 버튼 생성
         const buttons = [
             {
                 text: nation.NATION,
                 onClick: () => {
-                    alert("정답입니다!");
-                    loadImages(); // 정답 메시지 후 새로운 이미지 로드
+                    speakMessage("정답입니다!");
+                    setTimeout(loadImages, 2000); //2초 후 다른 이미지 출력
                 }
             },
             {
                 text: wrongNation.NATION,
                 onClick: () => {
-                    alert("다시 생각해보세요!");
+                    speakMessage("다시 생각해보세요!");
                 }
             }
         ];
-
+        
         // 버튼을 무작위로 섞기
         shuffleArray(buttons);
 

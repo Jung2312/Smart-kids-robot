@@ -15,6 +15,26 @@ const fetchRandomNation = async (category) => { // 'category' 파라미터 추�
     }
 };
 
+// 음성 출력 함수
+const speakMessage = (message) => {
+    const utterance = new SpeechSynthesisUtterance(message);
+    utterance.lang = "ko-KR"; // 한국어로 설정
+
+    // 보이스 설정 (예시로 Google Chrome 브라우저의 한국어 여성 보이스를 사용)
+    const setVoice = () => {
+        const voices = window.speechSynthesis.getVoices();
+        const koreanVoice = voices.find(
+            (voice) => voice.lang === "ko-KR" && voice.name === "Google 한국의"
+        );
+        if (koreanVoice) {
+            utterance.voice = koreanVoice; // 보이스 설정
+        }
+    };
+
+    setVoice();
+    window.speechSynthesis.speak(utterance);
+};
+
 const getRandomInt = (max) => {
     return Math.floor(Math.random() * max);
 };
@@ -63,14 +83,14 @@ const loadQuiz = async () => {
             {
                 text: word.WORD,
                 onClick: () => {
-                    alert("정답입니다!");
-                    loadQuiz(); // 정답 메시지 후 새로운 퀴즈 로드
+                    speakMessage("정답입니다!");
+                    setTimeout(loadQuiz, 2000); // 정답 메시지 후 새로운 퀴즈 로드
                 }
             },
             {
                 text: wrongWord.WORD,
                 onClick: () => {
-                    alert("다시 생각해보세요!");
+                    speakMessage("다시 생각해보세요!");
                 }
             }
         ];
