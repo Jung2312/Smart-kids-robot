@@ -9,7 +9,7 @@ body {
   text-align: center;
   background-color: pink;
   padding: 10px;
-  height: 50px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,15 +133,18 @@ body {
   font-weight: 600;
 }
 
-.content {
+.content { /*여기*/
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Set height to 100% of viewport height */
+  height: 80vh; /* Set height to 100% of viewport height */
+  margin-top: 10px; /* 카테고리 박스와의 간격 추가 여기*/
 }
 
-.image-container {
+.image-container { /*여기*/
   position: relative; /* Ensure image container maintains its position */
+  height: 80vh; /* 뷰포트에 맞게 조정 여기*/
+  margin-bottom: 10px; /*여기*/
 }
 
 .centered {
@@ -224,7 +227,7 @@ body {
 
 #word-quiz .question {
   text-align: center; /* 텍스트를 가운데 정렬합니다. */
-  font-size: 30px; /* 텍스트의 글자 크기를 20px로 설정합니다. */
+  font-size: 23px; /* 텍스트의 글자 크기를 20px로 설정합니다. */
   font-weight: 600;
 }
 
@@ -232,25 +235,29 @@ body {
   display: flex;
   flex-direction: column; /* 수직 정렬 */
   align-items: center; /* 가로축 중앙 정렬 */
-  height: 100vh; /* 뷰포트 높이의 100% */
+  height: auto; /* 뷰포트 높이의 80% */
+  margin-top: 0px; /* 카테고리 박스와의 간격 추가 여기*/
   justify-content: center; /* 세로축 중앙 정렬 */
 }
 
 #word-quiz .image-container {
-  margin-bottom: 10px; /* 이미지 아래에 여백 추가 */
+  position: relative; /* Ensure image container maintains its position */
+  height: auto; /* 뷰포트에 맞게 조정 여기*/
+  margin-bottom: 5px; /* 이미지 아래에 여백 추가 */
 }
 
 #word-quiz .centered {
   display: block;
   margin: 0 auto; /* 이미지를 중앙에 위치 */
-  max-width: 100%; /* 이미지의 최대 너비를 80%로 설정 */
-  max-height: 100%; /* 이미지의 최대 높이를 80%로 설정 */
+  max-width: 80%; /* 이미지의 최대 너비를 80%로 설정 */
+  max-height: 80%; /* 이미지의 최대 높이를 80%로 설정 */
 }
 
 #word-quiz .buttons {
   display: flex;
   justify-content: center; /* 버튼들을 중앙에 정렬 */
   gap: 10px; /* 버튼 사이에 간격 추가 */
+  margin-bottom: 5px;
 }
 
 #word-quiz .button {
@@ -274,33 +281,37 @@ body {
 
 #country-quiz .question {
   text-align: center; /* 텍스트를 가운데 정렬합니다. */
-  font-size: 30px; /* 텍스트의 글자 크기를 20px로 설정합니다. */
-  font-weight: 700;
+  font-size: 23px; /* 텍스트의 글자 크기를 20px로 설정합니다. */
+  font-weight: 600;
 }
 
 #country-quiz .content {
   display: flex;
   flex-direction: column; /* 수직 정렬 */
   align-items: center; /* 가로축 중앙 정렬 */
-  height: 100vh; /* 뷰포트 높이의 100% */
+  height: auto; /* 뷰포트 높이의 100% */
+  margin-top: 0px; /* 카테고리 박스와의 간격 추가 여기*/
   justify-content: center; /* 세로축 중앙 정렬 */
 }
 
 #country-quiz .image-container {
-  margin-bottom: 10px; /* 이미지와 버튼 사이에 간격 추가 */
+  position: relative; /* Ensure image container maintains its position */
+  height: auto; /* 뷰포트에 맞게 조정 여기*/
+  margin-bottom: 5px; /* 이미지와 버튼 사이에 간격 추가 */
 }
 
 #country-quiz .centered {
   display: block;
   margin: 0 auto; /* 이미지를 중앙에 위치 */
-  max-width: 100%; /* 이미지의 최대 너비를 80%로 설정 */
-  max-height: 100%; /* 이미지의 최대 높이를 80%로 설정 */
+  max-width: 80%; /* 이미지의 최대 너비를 80%로 설정 */
+  max-height: 80%; /* 이미지의 최대 높이를 80%로 설정 */
 }
 
 #country-quiz .buttons {
   display: flex;
   justify-content: center; /* 버튼들을 중앙에 정렬 */
   gap: 10px; /* 버튼 사이에 간격 추가 */
+  margin-bottom: 5px;
 }
 
 #country-quiz .button {
